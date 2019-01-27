@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<style>
+	body {
+		margin: 5%;
+	}
+	#c {
+		background-color: white;
+		padding: 15px;
+	}
+	footer {
+		text-align: center;
+		padding-top: 15px;
+	}
+	</style>
+</head>
+<body>
+<style> 
+      marquee {
+        width: 100%;
+        padding: 10px 0; /*padding: 10px 1;*/
+        color: white;
+        background-color: lightblue;
+      }
+    </style>
+
+	<header>
+		<h1>J's World</h1>
+		<marquee >J's World</marquee>
+		<nav>
+			<ul>
+				<li><a href="travel.html">Travel</a></li>
+				<li><a href="cook.html">Cook</a></li>
+				<li><a href="workout.html">Workout</a></li>
+				<li><a href="register.html">Register</a></li>
+			</ul><hr>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			
+			<h2>Register~~</h2>
+			You can register to subscribe for monthly newsletter.
+			<form method="GET">
+				<div id="c">
+				<label for="username">User Name</label>
+				<input type="text" id="username" placeholder="user name" required><br>
+				<label for="email">Email</label>
+				<input type="email" id="email" placeholder="email" required>
+				<label for="newletter">Would you like to subscribe for monthly newsletter as well?</label>
+				<input type="radio" id="news" name="yes">Yes</input>
+				<input type="radio" id="news" name="no">No</input><br>
+
+				<label for="yourpassowrd">Password</label>
+				<input type="password" id="yourpassword" minlength="5" placeholder="min 5 characters" required><br><br>
+				Let me know more about you:<br>
+				<label for="favcountry">Which country will you be most interested in hearing more stories?</label><br>
+				<select multiple name="country" id="favcountry">
+					<option>American</option>
+					<option>Mexico</option>
+					<option>Japan</option>
+					<option>Taiwan</option>
+				</select><br>
+				</div>
+				<input type="submit" value="Register!">
+				<input type="reset" value="Reset">
+
+
+
+				
+			</form>
+			
+		</section>	
+	</main>
+	<hr>
+	<footer>
+		<a href="../index.html">Homepage</a> &copy 2019
+	</footer>
+</body>
+</html>
